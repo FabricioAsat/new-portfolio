@@ -4,6 +4,7 @@ import proyect1 from "../../assets/proyects/TODO.png";
 import proyect2 from "../../assets/proyects/WeatherApp.png";
 import proyect3 from "../../assets/proyects/PokeSearch.png";
 import proyect4 from "../../assets/proyects/Ecommerce.png";
+import proyect5 from "../../assets/proyects/CuteDogs.png";
 
 const proyectsData = [
 	{
@@ -29,6 +30,12 @@ const proyectsData = [
 		img: proyect4,
 		info: `Fourth project, a basic e-commerce made with NEXT.JS that uses an API to get the products and "Tailwind" for the styles. At the same time, it incorporates the "Dark/Light" mode through the hook "useContext". It was a very good project to improve the programming logic.`,
 		link: "https://4-ecommerce.vercel.app/",
+	},
+	{
+		title: "Cute Dogs",
+		img: proyect5,
+		info: `Cute Dogs is an application for watching puppies. The main goal of it is to learn how to use Auth0, make a Login/Logout and work with different functionalities of the library, but not to present a pretty application to the user.`,
+		link: "https://5-cutedogs.vercel.app/",
 	},
 ];
 
