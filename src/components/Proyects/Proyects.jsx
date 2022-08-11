@@ -5,6 +5,7 @@ import proyect2 from "../../assets/proyects/WeatherApp.png";
 import proyect3 from "../../assets/proyects/PokeSearch.png";
 import proyect4 from "../../assets/proyects/Ecommerce.png";
 import proyect5 from "../../assets/proyects/CuteDogs.png";
+import proyect6 from "../../assets/proyects/Searcher.png";
 
 const proyectsData = [
 	{
@@ -36,6 +37,12 @@ const proyectsData = [
 		img: proyect5,
 		info: `Cute Dogs is an application for watching puppies. The main goal of it is to learn how to use Auth0, make a Login/Logout and work with different functionalities of the library, but not to present a pretty application to the user.`,
 		link: "https://5-cutedogs.vercel.app/",
+	},
+	{
+		title: "Searcher + TS",
+		img: proyect6,
+		info: `Searcher is a simple application made to start adapting myself to TypeScript. It is the first and not the last application made in this language.  `,
+		link: "https://6-searcher-ts.vercel.app/",
 	},
 ];
 
