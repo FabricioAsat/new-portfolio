@@ -6,6 +6,7 @@ import proyect3 from "../../assets/proyects/PokeSearch.png";
 import proyect4 from "../../assets/proyects/Ecommerce.png";
 import proyect5 from "../../assets/proyects/CuteDogs.png";
 import proyect6 from "../../assets/proyects/Searcher.png";
+import proyect7 from "../../assets/proyects/Encrypter.png";
 
 const proyectsData = [
 	{
@@ -43,6 +44,13 @@ const proyectsData = [
 		img: proyect6,
 		info: `Searcher is a simple application made to start adapting myself to TypeScript. It is the first and not the last application made in this language.  `,
 		link: "https://6-searcher-ts.vercel.app/",
+	},
+	{
+		title: "Encrypter & Pass generator",
+		img: proyect7,
+		info: `This project was made using React.js and Tailwind CSS plus dark mode styling.
+		A Caesar cipher and a password generator were made. Here the challenge was to operate with different string methods and copy to clipboard functionality. Undoubtedly a project where I learned a lot.`,
+		link: "https://encrypt-and-pass-generator.vercel.app/",
 	},
 ];
 
