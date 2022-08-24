@@ -1,6 +1,6 @@
 import proyectImage from "../../assets/proyect.svg";
 
-import proyect1 from "../../assets/proyects/TODO.png";
+import proyect1 from "../../assets/proyects/TODOUpd.jpg";
 import proyect2 from "../../assets/proyects/WeatherApp.png";
 import proyect3 from "../../assets/proyects/PokeSearch.png";
 import proyect4 from "../../assets/proyects/Ecommerce.png";
@@ -10,10 +10,10 @@ import proyect7 from "../../assets/proyects/Encrypter.png";
 
 const proyectsData = [
 	{
-		title: "TODO",
+		title: "TODO Updated",
 		img: proyect1,
-		info: `First project done with "useState" and the additional use of "useRef" for the creation of a TODO. It was a simple project where I learned and understood the operation and the way to work with states.`,
-		link: "https://p1-fabricio.netlify.app",
+		info: `Update on my first project. It is made with TypeScript, it uses references, contexts, states, effects, quite strong logic, and more. `,
+		link: "https://1-todo-updated.vercel.app/",
 	},
 	{
 		title: "Weather App",
