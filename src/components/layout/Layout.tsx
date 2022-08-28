@@ -11,7 +11,7 @@ export const Layout = ({ children }: { children: JSX.Element | JSX.Element[] }) 
 			}`}>
 			<NavBar />
 
-			<main className="max-w-7xl mx-auto min-h-screen h-full sm:pt-16 pt-32 px-1 sm:px-5">
+			<main className="max-w-7xl mx-auto min-h-screen h-full sm:pt-16 pt-32 px-1 sm:px-5 mb-8">
 				{children}
 			</main>
 		</div>

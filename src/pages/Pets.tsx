@@ -25,7 +25,7 @@ export const Pets = () => {
 
 	return (
 		<article className="flex flex-col gap-y-8 animate-opacityAnimation h-full">
-			<span className="flex flex-col items-center text-center mt-2 sm:mt-4">
+			<span className="flex flex-col items-center text-center mt-2 sm:mt-4 mb-6">
 				<h1 className="longSize text-orange-500 font-bold">I'll show them to you!</h1>
 				<small className="shortSize italic mt-1">
 					Let me tell you that you will experience a level of sweetness never seen before, are you
@@ -37,7 +37,7 @@ export const Pets = () => {
 						wantView ? "justify-center" : "justify-between"
 					}`}>
 					<Link
-						to={"/"}
+						to={"/about"}
 						onClick={() => {
 							setWantView(false);
 						}}
@@ -73,12 +73,14 @@ export const Pets = () => {
 							Next{" ▶"}
 						</button>
 					</nav>
-
-					<picture className="h-96">
+					<picture className="flex items-stretch h-96">
 						<Picture index={active} />
 					</picture>
 				</div>
 			)}
+			{/* -------------------------------------------------------- */}
+			{wantView && <hr className={`w-full mx-auto border-gray-500/75`} />}
+			{/* -------------------------------------------------------- */}
 		</article>
 	);
 };
