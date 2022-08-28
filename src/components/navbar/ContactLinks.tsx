@@ -9,14 +9,14 @@ export const ContactLinks = ({ className }: { className: string }) => {
 				href={import.meta.env.VITE_GITHUB_URL}
 				rel="noopener noreferrer"
 				target="_blank"
-				className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300">
+				className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300 cursor-pointer">
 				<img src={githubImage} alt="" className="w-7" />
 			</a>
 			<a
 				href={import.meta.env.VITE_LINKEDIN_URL}
 				rel="noopener noreferrer"
 				target="_blank"
-				className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300">
+				className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300 cursor-pointer">
 				<img src={linkedinImage} alt="" className="w-7" />
 			</a>
 
@@ -45,7 +45,7 @@ const Mailto = ({
 	return (
 		<a
 			href={`mailto:${email}${params}`}
-			className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300">
+			className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300 cursor-pointer">
 			{children}
 		</a>
 	);
