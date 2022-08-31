@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/1_todo_updated.png";
 import project2 from "../assets/projects/2_weather_app.png";
-import project3 from "../assets/projects/3_poke_search.png";
+import project3 from "../assets/projects/3_pokesearch_updated.png";
 import project4 from "../assets/projects/4_ecommerce.png";
 import project5 from "../assets/projects/5_cute_dogs.png";
 import project6 from "../assets/projects/6_searcher.png";
@@ -22,10 +22,10 @@ export const dataProyects = [
 	},
 
 	{
-		title: "PokeSearch",
+		title: "PokeSearch - Updated",
 		img: project3,
-		info: "Third project in which I continued making fetch requests to an API 'PokeAPI' and made a pokemon finder. The challenge here was the logic, how to receive information from each pokemon and work it. On the other hand, I incorporated the 'lazy loading' which is a tool that well used optimizes the application.",
-		link: "https://p3-fabricio.netlify.app",
+		info: `Update of my third project "PokeSearch", in which I applied the new design style, dark/light mode, better use of fetching, etc. Of course, all done with TypeScript.`,
+		link: "https://9-pokesearch-updated.vercel.app/",
 	},
 
 	{
