@@ -7,11 +7,11 @@ export const Layout = ({ children }: { children: JSX.Element | JSX.Element[] }) 
 	return (
 		<div
 			className={`transition-colors duration-300 overflow-x-hidden ${
-				isDarkMode ? "bg-darkLight text-lightLight" : "bg-lightLight text-darkLight"
+				isDarkMode ? "bg-darkLight text-gray-200 " : "bg-lightLigth text-darkLight "
 			}`}>
 			<NavBar />
 
-			<main className="max-w-7xl mx-auto min-h-screen h-full sm:pt-16 pt-32 px-1 sm:px-5 mb-8">
+			<main className="max-w-7xl mx-auto min-h-screen h-full sm:pt-16 pt-32 px-1 sm:px-5 mb-8 text-">
 				{children}
 			</main>
 		</div>

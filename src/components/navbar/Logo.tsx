@@ -54,8 +54,8 @@ export const Logo = () => {
 							onClick={() => {
 								setShowModal(false);
 							}}
-							className="absolute right-0 mediumSize bg-darkDark/75 text-lightLight font-extrabold w-8 h-8 rounded-full translate-x-1/2 -translate-y-1/2">
-							X
+							className="text-blue-400 lowLongSize font-bold mb-4 animate-scaleAnimation">
+							Close modal
 						</button>
 					</div>
 				</div>
