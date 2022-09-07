@@ -104,7 +104,7 @@ function Proyect({
 							rel="noopener noreferrer"
 							target="_blank"
 							className={
-								"shortSize font-extrabold italic hover:animate-scaleAnimation hover:brightness-110"
+								"shortSize font-extrabold italic hover:translate-x-2 transition-transform duration-700 hover:brightness-110"
 							}>
 							Deploy ▶
 						</a>

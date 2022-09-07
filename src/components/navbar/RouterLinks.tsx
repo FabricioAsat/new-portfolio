@@ -8,7 +8,7 @@ export const RouterLinks = ({ className }: { className: string }) => {
 				to={"/about"}
 				className={({ isActive }) =>
 					isActive
-						? "italic text-blue-400 duration-300"
+						? "italic text-orange-500/90 duration-300"
 						: "text-gray-400/90 hover:brightness-125 transition-all duration-300"
 				}>
 				About me
@@ -18,7 +18,7 @@ export const RouterLinks = ({ className }: { className: string }) => {
 				to={"/skills"}
 				className={({ isActive }) =>
 					isActive
-						? "italic text-blue-400 duration-300"
+						? "italic text-orange-500/90 duration-300"
 						: "text-gray-400/90 hover:brightness-125 transition-all duration-300"
 				}>
 				Skills
@@ -28,7 +28,7 @@ export const RouterLinks = ({ className }: { className: string }) => {
 				to={"/projects"}
 				className={({ isActive }) =>
 					isActive
-						? "italic text-blue-400 duration-30 animate-translateRigthAnimation1"
+						? "italic text-orange-500/90 duration-30 animate-translateRigthAnimation1"
 						: "text-gray-400/90 hover:brightness-125 transition-all  duration-300 animate-translateRigthAnimation1"
 				}>
 				Projects

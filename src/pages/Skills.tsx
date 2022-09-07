@@ -6,7 +6,7 @@ export const Skills = () => {
 		<article className="flex flex-col gap-y-5 px-4 animate-opacityAnimation mt-4 md:mt-8">
 			<section className="flex flex-col items-center">
 				<h2 className="lowLongSize font-bold text-center text-orange-500">Soft Skills</h2>
-				<aside className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-start pt-2 md:py-4">
+				<aside className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-start pt-2 md:py-4">
 					<picture className="my-auto select-none">
 						<img
 							src={soft}
@@ -55,7 +55,7 @@ export const Skills = () => {
 			{/* -------------------------------------------------------- */}
 			<section className="flex flex-col items-center">
 				<h2 className="lowLongSize font-bold text-center text-orange-500">Hard Skills</h2>
-				<aside className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-start pt-2 md:py-4">
+				<aside className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-start pt-2 md:py-4">
 					<picture className="my-auto select-none">
 						<img src={hard} alt="" className="w-1/2 sm:1/3 md:w-full lg:w-3/4 mx-auto" />
 					</picture>

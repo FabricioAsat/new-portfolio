@@ -9,7 +9,7 @@ import typeOfCompany from "../assets/svg/main/coder.svg";
 export const Main = () => {
 	return (
 		<article className="flex flex-col gap-y-4 animate-opacityAnimation">
-			<section className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4">
+			<section className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4">
 				<picture className="select-none">
 					<img src={heroImage} className="w-1/2 md:w-3/4 lg:w-1/2 mx-auto" />
 				</picture>
@@ -38,7 +38,7 @@ export const Main = () => {
 			{/* -------------------------------------------------------- */}
 			<hr className={`w-1/2 mx-auto border-gray-500/75`} />{" "}
 			{/* -------------------------------------------------------- */}
-			<section className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4">
+			<section className="grid grid-cols-1 md:grid-cols-2 md:gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4">
 				<picture className="order-2 select-none">
 					<img src={whoIAm} alt="" className="w-1/2 md:w-3/4 mx-auto" />
 				</picture>
@@ -70,7 +70,7 @@ export const Main = () => {
 			{/* -------------------------------------------------------- */}
 			<hr className={`w-3/4 md:w-1/2 mx-auto border-gray-500/75`} />{" "}
 			{/* -------------------------------------------------------- */}
-			<section className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 px-8 md:px-1">
+			<section className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 px-8 md:px-1">
 				<picture className="order-2 select-none">
 					<img src={typeOfCompany} alt="" className="w-1/2 md:w-3/4 mx-auto" />
 				</picture>

@@ -8,9 +8,12 @@ export const NavBar = () => {
 	const { isDarkMode } = useIsDarkContext();
 
 	return (
-		<div className={`fixed z-50 h-auto w-full ${isDarkMode ? "bg-darkDark" : "bg-darkLight"}`}>
+		<div
+			className={`fixed z-50 h-auto w-full shadow-md shadow-darkDark ${
+				isDarkMode ? "bg-darkDark" : "bg-darkLight"
+			}`}>
 			<span className="flex flex-col items-center gap-y-3 w-full max-w-7xl pb-4 sm:pb-0 mx-auto">
-				<nav className="flex justify-evenly sm:justify-between w-full px-4">
+				<nav className="flex justify-center gap-x-5 sm:gap-x-0 sm:justify-between w-full px-4">
 					<Logo />
 					<RouterLinks className="hidden sm:flex" />
 					<nav className="flex items-center gap-x-5 lg:gap-x-8">

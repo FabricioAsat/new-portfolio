@@ -38,7 +38,7 @@ export const About = () => {
 					until the point where I am now.
 				</p>
 			</section>
-			<section className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 pl-4">
+			<section className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 pl-4">
 				<picture className="order-2 select-none">
 					<img src={like} alt="Like thinks" className="w-1/2 sm:1/3 md:w-3/4 mx-auto" />
 				</picture>
@@ -86,7 +86,7 @@ export const About = () => {
 					</p>
 				</span>
 
-				<aside className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 pl-4">
+				<aside className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-center lg:items-start pt-2 md:py-4 pl-4">
 					<picture className="select-none">
 						<img src={future} alt="More about" className="w-1/2 sm:1/3 md:w-3/4 mx-auto" />
 					</picture>
@@ -127,7 +127,7 @@ export const About = () => {
 						deployment.
 					</small>
 				</span>
-				<aside className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4	">
+				<aside className="grid grid-cols-1 md:grid-cols-3 md:gap-x-4 gap-y-5 w-full justify-items-center items-center pt-2 md:py-4	">
 					<picture className="order-2 select-none">
 						<img src={pair} alt="" className="w-1/2 sm:1/3 md:w-full lg:w-3/4 mx-auto" />
 					</picture>

@@ -22,7 +22,7 @@ export const dataProyects = [
 		info: "Second project in which fetch requests were made to a weather API. With this one I further refined the use of states, incorporated the creation of custom hooks and the incorporation of environment variables.",
 		linkDemo: "https://p2-fabricio.netlify.app",
 		linkGithub: "https://github.com/FabricioAsat/2_weather",
-		date: new Date(2022, 3, 1),
+		date: new Date(2022, 6, 5),
 	},
 
 	{
@@ -40,7 +40,7 @@ export const dataProyects = [
 		info: "Fourth project, a basic e-commerce made with NEXT.JS that uses an API to get the products and 'Tailwind' for the styles. At the same time, it incorporates the 'Dark/Light' mode through the hook 'useContext'. It was a very good project to improve the programming logic.",
 		linkDemo: "https://4-ecommerce.vercel.app/",
 		linkGithub: "https://github.com/FabricioAsat/4_ecommerce",
-		date: new Date(2022, 3, 2),
+		date: new Date(2022, 6, 15),
 	},
 
 	{
@@ -49,7 +49,7 @@ export const dataProyects = [
 		info: "Cute Dogs is an application for watching puppies. The main goal of it is to learn how to use Auth0, make a Login/Logout and work with different functionalities of the library, but not to present a pretty application to the user.",
 		linkDemo: "https://5-cutedogs.vercel.app/",
 		linkGithub: "https://github.com/FabricioAsat/5_cutedogs",
-		date: new Date(2022, 3, 3),
+		date: new Date(2022, 6, 29),
 	},
 
 	{
@@ -58,7 +58,7 @@ export const dataProyects = [
 		info: "Searcher is a simple application made to start adapting myself to TypeScript. It is the first and not the last application made in this language.",
 		linkDemo: "https://6-searcher-ts.vercel.app/",
 		linkGithub: "https://github.com/FabricioAsat/6_searcher_ts",
-		date: new Date(2022, 3, 4),
+		date: new Date(2022, 7, 11),
 	},
 
 	{
@@ -67,6 +67,6 @@ export const dataProyects = [
 		info: "This project was made using React.js and Tailwind CSS plus dark mode styling. A Caesar cipher and a password generator were made. Here the challenge was to operate with different string methods and copy to clipboard functionality. Undoubtedly a project where I learned a lot.",
 		linkDemo: "https://encrypt-and-pass-generator.vercel.app/",
 		linkGithub: "https://github.com/FabricioAsat/encrypt-pass-generator",
-		date: new Date(2022, 3, 5),
+		date: new Date(2022, 7, 22),
 	},
 ].sort((dateA: any, dateB: any) => dateB.date - dateA.date);

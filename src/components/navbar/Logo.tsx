@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 import live from "../../assets/svg/liveAjo.svg";
 import dead from "../../assets/svg/deadAjo.svg";
-import { useState } from "react";
 
 export const Logo = () => {
 	const [counter, setCounter] = useState(0);
@@ -18,7 +18,7 @@ export const Logo = () => {
 	}
 
 	return (
-		<nav className="flex gap-x-2">
+		<nav className="flex items-center gap-x-2 lowBigSize md:longSize xl:lowLongSize font-bold">
 			{isAlive ? (
 				<img
 					src={live}
@@ -29,13 +29,13 @@ export const Logo = () => {
 			) : (
 				<img src={dead} alt="" className={`w-12 cursor-not-allowed select-none`} />
 			)}
-			<Link
+			<NavLink
 				to={"/"}
-				className="flex gap-x-3 items-center select-none h-16 hover:animate-scaleAnimation">
-				<h2 className="lowBigSize md:longSize xl:lowLongSize italic font-bold text-blue-400">
-					Portfolio
-				</h2>
-			</Link>
+				className={({ isActive }) =>
+					isActive ? "text-orange-500 italic" : "text-orange-500/90 hover:animate-scaleAnimation"
+				}>
+				Portfolio
+			</NavLink>
 
 			{showModal && (
 				<div className="fixed flex items-center justify-center z-50 top-0 left-0 w-full h-full bg-black/75 animate-opacityAnimation px-4">
