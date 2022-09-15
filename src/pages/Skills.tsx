@@ -79,7 +79,9 @@ export const Skills = () => {
 							<li>
 								<b className="text-orange-500">Code/Logic: </b>As for JavaScript, I feel pretty
 								confident in this aspect, but I still have a lot to learn. On the other hand,
-								college and my projects gave me more optimized logic.
+								college and my projects gave me more optimized logic. Also in a very basic way I
+								understand Node.js and Express, generate API Rest, do data saving in MongoDB and of
+								course do queries using "Mongoose"
 							</li>
 
 							<li>

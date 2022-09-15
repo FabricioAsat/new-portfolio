@@ -103,8 +103,9 @@ export const About = () => {
 								<b className="text-orange-500">new frameworks and methods</b>.
 							</li>
 							<li>
-								Start backend development with <b className="text-green-600/80">Node.js</b> while I
-								professionalize in the frontend.
+								Start backend development with{" "}
+								<b className="text-green-600/80">Node.js | Express</b> while I professionalize in
+								the frontend.
 							</li>
 							<li>
 								Once I am a fullstack developer, look for new and more optimal options for the job.

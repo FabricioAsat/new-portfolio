@@ -9,7 +9,7 @@ export const NavBar = () => {
 
 	return (
 		<div
-			className={`fixed z-50 h-auto w-full shadow-md shadow-darkDark ${
+			className={`fixed z-50 h-auto w-full shadow-lg shadow-darkDark/60 pt-2 sm:py-1 ${
 				isDarkMode ? "bg-darkDark" : "bg-darkLight"
 			}`}>
 			<span className="flex flex-col items-center gap-y-3 w-full max-w-7xl pb-4 sm:pb-0 mx-auto">
