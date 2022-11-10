@@ -73,7 +73,7 @@ export const dataProyects = [
 	{
 		title: "Realtime Chat App",
 		img: project8,
-		info: "Aplicación de chat en tiempo real, primera aplicación full-stack en la que uso el stack MERN. No hay despliegue, pero el código está en GitHub por si te interesa.",
+		info: "Real-time chat application, first full-stack application in which I use the MERN stack. No deployment, but the code is on GitHub in case you are interested.",
 		linkDemo: "https://www.linkedin.com/feed/update/urn:li:activity:6992998995291705344/",
 		linkGithub: "https://github.com/FabricioAsat/10_real_time_chat",
 		date: new Date(2022, 10, 1),
