@@ -5,6 +5,7 @@ import project4 from "../assets/projects/4_ecommerce.png";
 import project5 from "../assets/projects/5_cute_dogs.png";
 import project6 from "../assets/projects/6_searcher.png";
 import project7 from "../assets/projects/7_encrypter.png";
+import project8 from "../assets/projects/8_chatapp.png";
 
 export const dataProyects = [
 	{
@@ -68,5 +69,13 @@ export const dataProyects = [
 		linkDemo: "https://encrypt-and-pass-generator.vercel.app/",
 		linkGithub: "https://github.com/FabricioAsat/encrypt-pass-generator",
 		date: new Date(2022, 7, 22),
+	},
+	{
+		title: "Realtime Chat App",
+		img: project8,
+		info: "Aplicación de chat en tiempo real, primera aplicación full-stack en la que uso el stack MERN. No hay despliegue, pero el código está en GitHub por si te interesa.",
+		linkDemo: "https://www.linkedin.com/feed/update/urn:li:activity:6992998995291705344/",
+		linkGithub: "https://github.com/FabricioAsat/10_real_time_chat",
+		date: new Date(2022, 10, 1),
 	},
 ].sort((dateA: any, dateB: any) => dateB.date - dateA.date);
