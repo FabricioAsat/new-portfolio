@@ -19,91 +19,109 @@ import photo18 from "../assets/pets/18.jpeg";
 
 export const dbPets = [
 	{
+		id: 1,
 		name: "Young Firuse y Leo",
 		img: photo1,
 	},
 
 	{
+		id: 2,
 		name: "Young Luna",
 		img: photo2,
 	},
 
 	{
+		id: 3,
 		name: "Petete",
 		img: photo3,
 	},
 
 	{
+		id: 4,
 		name: "Young Tiffany 1",
 		img: photo4,
 	},
 
 	{
+		id: 5,
 		name: "Young Petete",
 		img: photo5,
 	},
 
 	{
+		id: 6,
 		name: "Young Tiffany 2",
 		img: photo6,
 	},
 
 	{
+		id: 7,
 		name: "Young Tiffany 3",
 		img: photo7,
 	},
 
 	{
+		id: 8,
 		name: "Minccino",
 		img: photo8,
 	},
 
 	{
+		id: 9,
 		name: "Luna",
 		img: photo9,
 	},
 
 	{
+		id: 10,
 		name: "Tiffany",
 		img: photo10,
 	},
 
 	{
+		id: 11,
 		name: "Tiffany y Firuse",
 		img: photo11,
 	},
 
 	{
+		id: 12,
 		name: "Pichichu",
 		img: photo12,
 	},
 
 	{
+		id: 13,
 		name: "Lulu",
 		img: photo13,
 	},
 
 	{
+		id: 14,
 		name: "Tortugator",
 		img: photo14,
 	},
 
 	{
+		id: 15,
 		name: "Tortugator y Leo",
 		img: photo15,
 	},
 
 	{
+		id: 16,
 		name: "Minccino 2",
 		img: photo16,
 	},
 
 	{
+		id: 17,
 		name: "Young Tiffany 4",
 		img: photo17,
 	},
 
 	{
+		id: 18,
 		name: "Firuse",
 		img: photo18,
 	},

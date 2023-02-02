@@ -11,7 +11,7 @@ export const Projects = () => {
 	return (
 		<article className="flex flex-col gap-y-5 animate-opacityAnimation">
 			<span className="flex flex-col gap-y-2 items-center text-center my-2 sm:my-4">
-				<h1 className="lowLongSize font-bold text-orange-500">My Projects!</h1>
+				<h1 className="lowLongSize font-bold text-teal-500">My Projects!</h1>
 
 				<small className="lowShortSize italic">
 					These are all the projects I have published. Some very basic, others more complex. Anyway
@@ -20,7 +20,7 @@ export const Projects = () => {
 
 				<ContactLinks className="sm:hidden flex mt-2 gap-x-8" />
 			</span>
-			<p className="text-center sm:text-start italic lowMediumSize max-w-3xl mx-auto w-full">
+			<p className="text-center sm:text-start italic shortSize max-w-3xl mx-auto w-full">
 				Latest updates...
 			</p>
 			{/* -------------------------------------------------------- */}
@@ -44,7 +44,8 @@ export const Projects = () => {
 			</section>
 			<button
 				onClick={() => setViewAll(!viewAll)}
-				className="text-center sm:text-start italic font-bold lowMediumSize max-w-3xl mx-auto w-full">
+				className="text-center sm:text-start italic font-bold shortSize max-w-3xl mx-auto w-full hover:text-teal-500"
+			>
 				{viewAll ? "▲ Show less" : "▼ Show more"}
 			</button>
 			{/* -------------------------------------------------------- */}
@@ -74,9 +75,12 @@ function Proyect({
 	return (
 		<>
 			<div
-				className={`grid grid-cols-1 sm:grid-cols-3 sm:gap-x-4 gap-y-3 justify-items-center py-5 px-6 rounded-2xl max-w-3xl`}>
+				className={`grid grid-cols-1 sm:grid-cols-3 sm:gap-x-4 gap-y-3 justify-items-center py-5 px-6 rounded-2xl max-w-3xl`}
+			>
 				<picture className="flex flex-col items-center justify-center gap-y-1 select-none">
-					<small className="tinySize italic font-bold">{date.toLocaleDateString()}</small>
+					<small className="tinySize italic font-bold brightness-50">
+						{date.toLocaleDateString()}
+					</small>
 					<img
 						src={img}
 						alt=""
@@ -86,8 +90,8 @@ function Proyect({
 
 				<aside className="flex flex-col justify-between h-full col-span-2 max-w-xs sm:max-w-full">
 					<span>
-						<h1 className="text-orange-500 font-bold text-center mediumSize">{title}</h1>
-						<p className="tinySize italic text-center sm:text-start">{info}</p>
+						<h1 className="text-orange-500 font-bold text-center lowMediumSize italic">{title}</h1>
+						<p className="tinySize text-center sm:text-start">{info}</p>
 					</span>
 
 					<nav className="flex items-center gap-x-6 justify-center sm:justify-end mt-4 select-none">
@@ -95,7 +99,8 @@ function Proyect({
 							href={linkGithub}
 							rel="noopener noreferrer"
 							target="_blank"
-							className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300 cursor-pointer">
+							className="hover:animate-scaleAnimation hover:brightness-125 transition-all duration-300 cursor-pointer"
+						>
 							<img src={githubImage} alt="" className="w-7" />
 						</a>
 
@@ -104,14 +109,15 @@ function Proyect({
 							rel="noopener noreferrer"
 							target="_blank"
 							className={
-								"shortSize font-extrabold italic hover:translate-x-2 transition-transform duration-700 hover:brightness-110"
-							}>
+								"shortSize font-extrabold italic hover:translate-x-2 transition-transform duration-700 hover:text-teal-500"
+							}
+						>
 							Deploy ▶
 						</a>
 					</nav>
 				</aside>
 			</div>
-			{last && <hr className={`max-w-xs w-3/4 mx-auto border-orange-500`} />}
+			{last && <hr className={`max-w-xs w-3/4 mx-auto border-teal-500/50`} />}
 		</>
 	);
 }

@@ -15,18 +15,18 @@ export const Main = () => {
 				</picture>
 				<span className="flex flex-col items-center text-center col-span-2">
 					<h1 className="longSize">
-						Hello, I'm <b className="text-orange-500">Fabricio</b>
+						Hello, I'm <b className="text-teal-500">Fabricio</b>
 					</h1>
 
 					<small className="shortSize italic">
-						Jr. <b className="text-orange-500">Frontend Developer</b>.
+						Jr. <b className="text-teal-500">Frontend Developer</b>.
 					</small>
 
 					<p className="tinySize my-4">
 						I will give a brief description about me, in the tab{" "}
 						<Link
 							to="/about"
-							className="text-blue-400 font-bold hover:text-blue-500 transition-colors duration-300">
+							className="text-blue-400 font-bold hover:text-blue-500 transition-colors duration-300 underline">
 							about me
 						</Link>{" "}
 						you will get more detailed information.
@@ -43,27 +43,27 @@ export const Main = () => {
 					<img src={whoIAm} alt="" className="w-1/2 md:w-3/4 mx-auto" />
 				</picture>
 				<span className="px-4 text-center">
-					<h2 className="font-bold lowMediumSize mt-4">Who am I?</h2>
-					<p className="tinySize md:mt-1 md:mb-4 italic">
-						I am a 22 year old <b className="text-orange-500">Argentinian</b> oriented to{" "}
-						<b className="text-orange-500">frontend</b> web development and in a few more months,
-						also to <b className="text-orange-500">backend</b> development.
+					<h2 className="font-bold lowMediumSize mt-4 text-teal-500">Who am I?</h2>
+					<p className="tinySize md:mt-1 md:mb-4">
+						I am a 22 year old <i className="font-bold">Argentinian</i> oriented to{" "}
+						frontend web development and in a few more months,
+						also to backend development.
 					</p>
 
-					<h2 className="font-bold lowMediumSize mt-4">How am I?</h2>
-					<p className="tinySize md:mt-1 md:mb-4 italic">
-						I'm a <b className="text-orange-500">self-taught</b> person looking to get out into the
+					<h2 className="font-bold lowMediumSize mt-4 text-teal-500">How am I?</h2>
+					<p className="tinySize md:mt-1 md:mb-4">
+						I'm a <i>self-taught</i> person looking to get out into the
 						working world, gain experience through real projects,{" "}
-						<b className="text-orange-500">improve my skills</b>, meet different kinds of talents,{" "}
-						<b className="text-orange-500">teach and learn</b> with a group of peers, and much more.
+						<i>improve my skills</i>, meet different kinds of talents,{" "}
+						<i>teach and learn</i> with a group of peers, and much more.
 					</p>
 
-					<h2 className="font-bold lowMediumSize mt-4">Why me?</h2>
-					<p className="tinySize md:mt-1 md:mb-4 italic">
+					<h2 className="font-bold lowMediumSize mt-4 text-teal-500">Why me?</h2>
+					<p className="tinySize md:mt-1 md:mb-4">
 						My love for technology makes me to be in{" "}
-						<b className="text-orange-500">constant learning</b>, either learning new
+						<i>constant learning</i>, either learning new
 						functionalities, new tools, new algorithms, etc. On the other hand, I am a person who
-						loves to learn and <b className="text-orange-500">work in a team</b>.
+						loves to learn and <i>work in a team</i>.
 					</p>
 				</span>
 			</section>
@@ -76,25 +76,25 @@ export const Main = () => {
 				</picture>
 
 				<span className="md:order-2 col-span-2">
-					<h2 className="font-bold mediumSize text-center mb-2">My dream company</h2>
+					<h2 className="font-bold mediumSize text-center mb-2 text-teal-500">My dream company</h2>
 
-					<ol className="tinySize italic list-disc marker:text-orange-500">
+					<ol className="tinySize list-disc marker:text-orange-600">
 						<li>
-							It must use or be <b className="text-orange-500">updated</b> to{" "}
-							<b className="text-orange-500">new technologies</b> (new frameworks, new versions, new
-							methods, etc).
+							It must use or be updated to{" "}
+							new technologies <i className="font-normal">(new frameworks, new versions, new
+							methods, etc)</i>.
 						</li>
 						<li>It must have a short and long term goal.</li>
 						<li>
-							It <b className="text-orange-500">invests</b> in its employees (courses, equipment,
-							etc.) and keeps them <b className="text-orange-500">motivated</b>, eager to work for
+							It invests in its employees <i className="font-normal">(courses, equipment,
+							etc.)</i> and keeps them motivated, eager to work for
 							the company.
 						</li>
 						<li>
-							Is not afraid of risk and invests in <b className="text-orange-500">new talents</b>.
+							Is not afraid of risk and invests in new talents.
 						</li>
 						<li>
-							<b className="text-orange-500">Accepts people</b> regardless of their size, gender,
+							Accepts people regardless of their size, gender,
 							culture, etc.
 						</li>
 					</ol>

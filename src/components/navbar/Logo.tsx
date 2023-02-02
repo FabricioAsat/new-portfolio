@@ -33,13 +33,14 @@ export const Logo = () => {
 				to={"/"}
 				className={({ isActive }) =>
 					isActive ? "text-orange-500 italic" : "text-orange-500/90 hover:animate-scaleAnimation"
-				}>
+				}
+			>
 				Portfolio
 			</NavLink>
 
 			{showModal && (
 				<div className="fixed flex items-center justify-center z-50 top-0 left-0 w-full h-full bg-black/75 animate-opacityAnimation px-4">
-					<div className="relative flex flex-col bg-lightLight w-full max-w-lg h-auto rounded-3xl border-4 border-gray-400/50">
+					<div className="relative flex flex-col bg-neutral-200 w-full max-w-lg h-auto rounded-3xl border-4 border-gray-400/50">
 						<h2 className="text-red-500 font-bold text-center longSize xl:lowLongSize mt-4">
 							Your curiosity killed me
 						</h2>
@@ -54,7 +55,8 @@ export const Logo = () => {
 							onClick={() => {
 								setShowModal(false);
 							}}
-							className="text-orange-500 lowLongSize font-bold mb-4">
+							className="text-teal-600 mediumSize font-bold mb-4 animate-scaleAnimation hover:brightness-75"
+						>
 							Close modal
 						</button>
 					</div>
