@@ -6,8 +6,17 @@ import project5 from "../assets/projects/5_cute_dogs.png";
 import project6 from "../assets/projects/6_searcher.png";
 import project7 from "../assets/projects/7_encrypter.png";
 import project8 from "../assets/projects/8_chatapp.png";
+import project9 from "../assets/projects/9_tecro.png";
 
 export const dataProyects = [
+	{
+		title: "Tecro v1.0",
+		img: project9,
+		info: "TECRO's website made and designed 100% by me. I will see if I add more features in the future.",
+		linkDemo: "https://tecro-git-main-fabricioasat.vercel.app/",
+		linkGithub: "https://github.com/FabricioAsat/Tecro",
+		date: new Date(2023, 1, 13),
+	},
 	{
 		title: "TODO - Updated",
 		img: project1,
