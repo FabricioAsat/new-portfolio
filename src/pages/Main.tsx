@@ -32,15 +32,7 @@ export const Main = () => {
 						</Link>{" "}
 						you will get more detailed information.
 					</p>
-					{/* Este span es nuevo */}
-					<span className="flex gap-x-4 items-center justify-center my-2 md:mt-2 md:mb-0">
-						<a href="#" className="px-3 py-1 bg-teal-500 text-darkDark font-bold rounded-md">
-							Curriculum Vitae
-						</a>
-						{/* Clases de contactLink: my-2 md:mt-2 md:mb-0 */}
-						<ContactLinks className="flex" />
-					</span>
-					{/*  */}
+					<ContactLinks className="flex my-2 md:mt-2 md:mb-0" />
 				</span>
 			</section>
 			{/* -------------------------------------------------------- */}
