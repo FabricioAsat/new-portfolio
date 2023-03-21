@@ -1,2 +1,2 @@
-# Portfolio _Updated_
-[_Here_](https://new-portfolio-fabricioasat.vercel.app/) you can see it.
+# Tecro v1.0
+Presentación de un nuevo diseño para la pagina [Tecro](https://www.tecro.dev/). 
