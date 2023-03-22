@@ -6,7 +6,7 @@ export const Skills = () => {
 	return (
 		<PageContainer id="skills">
 			<picture className="flex items-center justify-center pt-28 md:pt-20 pb-5">
-				<img src={skillsImage} alt="Skills" className="object-cover my-auto mx-auto h-72 w-full" />
+				<img src={skillsImage} alt="Skills" className="object-cover my-auto mx-auto h-72" />
 			</picture>
 
 			<article className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-x-5 gap-y-10 border-y-2 border-x border-bgDark bg-black/60 rounded-3xl">
