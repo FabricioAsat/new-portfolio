@@ -32,9 +32,8 @@ export const Skills = () => {
 						</p>
 
 						<p>
-							<b className="text-teal-500 italic font-extrabold">Teamwork:</b> The ability to adapt
-							to changing situations and make decisions accordingly is important in a business
-							environment.
+							<b className="text-teal-500 italic font-extrabold">Time management:</b> Professionals
+							must be able to prioritise tasks and use their time effectively to achieve objectives.
 						</p>
 					</div>
 				</aside>
